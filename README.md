@@ -7,5 +7,7 @@ Made with Django.
 
 # Made by:
 Eric K - github.com/Nyveon
+
 Gabriel G. - github.com/Gago31
+
 Jose Luis P.
