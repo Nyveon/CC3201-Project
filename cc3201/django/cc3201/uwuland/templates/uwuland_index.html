@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="">
+	<meta charset="utf-8">
+	<title>CC3201 Project Homepage - Group Seventeen</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+	<div class = "imgbox">
+	<a href = "/uwuland">
+	<img class = "center-fit" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png">
+	</div>
+	</a>
+	<h1>Base de datos de Fútbol de la Premier League 2011-2012.</h1>
+
+	<p>Grupo 17</p>
+	<p><i>Eric Kirchgessner - Gabriel Guajardo Orrego - Jose Luis Perez Ruiz</i></p>
+
+	<main>
+		<div class="form-container">
+			<h3>Consultas a la base de datos:</h3>
+			
+<style>
+	.button {
+		width: 100%;
+		display:block;
+		border-radius: 4px;
+		padding: 14px 40px;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.buttonlink {
+		text-decoration: none;
+	}
+	.button:hover {
+		cursor: pointer;
+	}
+</style>
+						
+			<a href="jugadores" class = "buttonlink"><button type="button" class = "button">Jugadores por equipo</button></a>
+			<br>
+			<a href="partidos" class = "buttonlink"><button type="button" class="button">Resultados de partidos por equipo</button></a>
+		</div>
+	</main>		
+</body>
+</html>

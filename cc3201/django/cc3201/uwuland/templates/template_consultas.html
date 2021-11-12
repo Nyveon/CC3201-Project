@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>CC3201 Pwoject Howompwage</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+	<div class = "imgbox">
+	<a href = "/uwuland">
+	<img class = "center-fit" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png">
+	</div>
+	</a>
+	<br>
+	<br>
+
+	<main>
+		<div class="form-container">
+			<h2>{{ titulo }}</h2>
+
+			<form action="" method="POST">
+				{% csrf_token %}
+				{% for field in formulario %}
+					<div class="field">
+						{{ field.label_tag }}
+						{{ field }}
+					</div>
+				{% endfor %}
+				<input type="submit" name="Submit" id="submit" value="Enviar">
+			</form>
+		</div>
+		<div>
+		{{ resultados|safe }}
+		</div>
+	</main>		
+</body>
+</html>

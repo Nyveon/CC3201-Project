@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>CC3201 Pwoject Howompwage</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+	        <div class = "imgbox">
+		             <a href = "/uwuland">
+				             <img class = "center-fit" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png">
+					             </div>
+						             </a>
+	<main>
+		<br>
+		<div class="form-container">
+			<h2>{{ titulo }}</h2>
+			<p>Equipo: {{ equipo }}</p>
+			<p>Partidos jugados: {{ partidos }}</p>
+			<p>Goles anotados: {{ goles }}</p>
+			<p>Penales anotados: {{ goles_penales }}</p>
+			<p>Tiempo jugado: {{ tiempo_jugado }} mins.</p>
+			<p>Pases: {{ pases }}</p>
+			<p>Toques: {{ toques }}</p>
+			<p>Duelos ganados: {{ duelos_ganados }}</p>
+			<p>Duelos perdidos: {{ duelos_perdidos }}</p>
+			<p>Faltas concedidas: {{ faltas_concedidas }}</p>
+			<p>Penales concedidos: {{ penales_concedidos }}</p>
+			<p>Tarjetas Amarillas: {{ amarillas }}</p>
+			<p>Tarjetas Rojas: {{ rojas }}</p>
+		</div>
+	</main>		
+</body>
+</html>
