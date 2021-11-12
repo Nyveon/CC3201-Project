@@ -1,2 +1,6 @@
-# ProyectoBasesDeDatos
-Proyecto para el curso CC3201 Bases de Datos el semestre de otoño de 2021, utilizando una base de datos de la Premier League y el framework Django.
+# CC3201 - Bases de Datos
+
+Development period: June 15th to July 7th, 2021
+
+Final project for the CC3201 - Databases course.
+Made with Django.
